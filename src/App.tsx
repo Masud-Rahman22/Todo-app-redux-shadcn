@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>My Todo</h1>
-      <Button>d</Button>
+      <Button>default</Button>
     </>
   )
 }
