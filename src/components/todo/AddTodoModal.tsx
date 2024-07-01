@@ -12,7 +12,10 @@ const AddTodoModal = ()=>{
 
     const dispatch = useAppDispatch();
 
+    const randomId = Math.random().toString(36).substring(2, 7);
+
     const taskDetails = {
+        id: randomId,
         title: task,
         description: description
     }
